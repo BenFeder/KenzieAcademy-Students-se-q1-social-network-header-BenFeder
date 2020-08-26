@@ -1,17 +1,18 @@
 /*  Put your CSS Here */
 
 .blueHeader {
-  background-color: rgb(73, 73, 168);
+  background-color: rgb(83, 83, 172);
   width: 850px;
   height: 250px;
-  justify-content: center;
+  margin: 0 auto;
+  border: 1px solid black;
 }
 
 .introWords {
   float: left;
   position: relative;
   bottom: 80px;
-  left: 25px;
+  left: 275px;
 }
 
 .introWords h1 {
@@ -41,12 +42,12 @@
 .blueProfileBox {
   width: 140px;
   height: 140px;
-  background-color: rgb(73, 73, 168);
+  background-color: rgb(83, 83, 172);
   border: 1px solid black;
   float: left;
   position: relative;
   bottom: 110px;
-  left: 15px;
+  left: 265px;
 }
 
 .moreStuff {
@@ -71,46 +72,63 @@
   text-align: left;
   display: inline;
   padding: 5px;
-  border-left: 1px solid black;
+  border-left: 1px solid grey;
 }
 
 .dotsOtherButton {
   text-align: left;
   display: inline;
   padding: 5px;
-  border-left: 1px solid black;
+  border-left: 1px solid grey;
 }
 
-.nav {
+.timelineButton {
   float: left;
   position: relative;
-  right: 190px;
-  display: inline-block;
+  right: -50px;
+  padding: 5px;
+  margin: 5px;
 }
 
-.nav.timelineButton {
-  text-align: left;
-  display: inline;
+.timelineButton:hover,
+.aboutButton:hover,
+.welcomeButton:hover,
+.FWBbutton:hover,
+.moreButton:hover {
+  font-weight: bold;
+}
+
+.aboutButton {
   float: left;
+  position: relative;
+  right: -50px;
+  padding: 5px;
+  margin: 5px;
 }
 
-.nav.aboutButton {
-  text-align: left;
-  display: inline;
+.welcomeButton {
   float: left;
+  position: relative;
+  right: -50px;
+  padding: 5px;
+  margin: 5px;
+  border-left: 1px solid grey;
 }
 
-.nav.welcomeButton {
-  text-align: left;
-  display: inline;
+.FWBbutton {
+  float: left;
+  position: relative;
+  right: -50px;
+  padding: 5px;
+  margin: 5px;
+  border-left: 1px solid grey;
 }
 
-.nav.FWBbutton {
-  text-align: left;
-  display: inline;
-}
-
-.nav.moreButton {
-  text-align: left;
-  display: inline;
+.moreButton {
+  float: left;
+  position: relative;
+  right: -50px;
+  padding: 5px;
+  margin: 5px;
+  border-left: 1px solid grey;
 }
