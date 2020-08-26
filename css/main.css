@@ -1,2 +1,116 @@
-
 /*  Put your CSS Here */
+
+.blueHeader {
+  background-color: rgb(73, 73, 168);
+  width: 850px;
+  height: 250px;
+  justify-content: center;
+}
+
+.introWords {
+  float: left;
+  position: relative;
+  bottom: 80px;
+  left: 25px;
+}
+
+.introWords h1 {
+  color: white;
+  margin: 5px;
+}
+
+.introWords h2 {
+  color: white;
+  font-weight: normal;
+  margin: 0;
+}
+
+.likeButton {
+  text-align: right;
+  margin-right: 10px;
+  background-color: white;
+  float: right;
+  position: relative;
+  top: 215px;
+  right: 10px;
+  padding: 5px;
+  border: 0 solid black;
+  border-radius: 3px;
+}
+
+.blueProfileBox {
+  width: 140px;
+  height: 140px;
+  background-color: rgb(73, 73, 168);
+  border: 1px solid black;
+  float: left;
+  position: relative;
+  bottom: 110px;
+  left: 15px;
+}
+
+.moreStuff {
+  text-align: right;
+  background-color: white;
+  float: right;
+  position: relative;
+  top: 215px;
+  right: 10px;
+  padding: 5px;
+  border: 0 solid black;
+  border-radius: 3px;
+}
+
+.followButton {
+  text-align: left;
+  display: inline;
+  padding: 5px;
+}
+
+.messageButton {
+  text-align: left;
+  display: inline;
+  padding: 5px;
+  border-left: 1px solid black;
+}
+
+.dotsOtherButton {
+  text-align: left;
+  display: inline;
+  padding: 5px;
+  border-left: 1px solid black;
+}
+
+.nav {
+  float: left;
+  position: relative;
+  right: 190px;
+  display: inline-block;
+}
+
+.nav.timelineButton {
+  text-align: left;
+  display: inline;
+  float: left;
+}
+
+.nav.aboutButton {
+  text-align: left;
+  display: inline;
+  float: left;
+}
+
+.nav.welcomeButton {
+  text-align: left;
+  display: inline;
+}
+
+.nav.FWBbutton {
+  text-align: left;
+  display: inline;
+}
+
+.nav.moreButton {
+  text-align: left;
+  display: inline;
+}
