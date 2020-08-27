@@ -8,10 +8,18 @@
   border: 1px solid black;
 }
 
+.whiteSpaceBelow {
+  background-color: white;
+  border: 1px solid grey;
+  margin: 0 auto;
+  width: 850px;
+  height: 50px;
+}
+
 .introWords {
   float: left;
   position: relative;
-  bottom: 80px;
+  bottom: 130px;
   left: 275px;
 }
 
@@ -86,6 +94,7 @@
   float: left;
   position: relative;
   right: -50px;
+  bottom: 50px;
   padding: 5px;
   margin: 5px;
 }
@@ -102,6 +111,7 @@
   float: left;
   position: relative;
   right: -50px;
+  bottom: 50px;
   padding: 5px;
   margin: 5px;
 }
@@ -110,6 +120,7 @@
   float: left;
   position: relative;
   right: -50px;
+  bottom: 50px;
   padding: 5px;
   margin: 5px;
   border-left: 1px solid grey;
@@ -119,6 +130,7 @@
   float: left;
   position: relative;
   right: -50px;
+  bottom: 50px;
   padding: 5px;
   margin: 5px;
   border-left: 1px solid grey;
@@ -128,7 +140,56 @@
   float: left;
   position: relative;
   right: -50px;
+  bottom: 50px;
   padding: 5px;
   margin: 5px;
   border-left: 1px solid grey;
+}
+
+.leftColumn {
+  width: 328px;
+  margin-right: 10px;
+  float: left;
+  position: absolute;
+  top: 320px;
+  background-color: white;
+}
+
+.aboutPage {
+  border: 1px solid grey;
+  font-weight: bold;
+}
+
+.aboutPage > p {
+  font-weight: normal;
+}
+
+.rightColumn {
+  width: 512px;
+  min-height: 250px;
+  margin-left: 10px;
+  float: left;
+  position: absolute;
+  top: 320px;
+  left: 587px;
+  background-color: white;
+}
+
+.smallBlueBoxProfile {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(83, 83, 172);
+  float: left;
+  position: relative;
+  top: 7px;
+  left: 7px;
+}
+
+.commentorName {
+  position: relative;
+  left: 10px;
+}
+
+.commentBox1 {
+  border: 1px solid grey;
 }
