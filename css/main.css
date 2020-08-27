@@ -190,6 +190,9 @@
   left: 10px;
 }
 
-.commentBox1 {
+.commentBox1,
+.commentBox2,
+.commentBox3 {
   border: 1px solid grey;
+  margin-bottom: 5px;
 }
